@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #202020 !important;
+    scroll-behavior: smooth;
+}
+
+.backgroundText{
+    position: fixed;
+    transform: rotateZ(-90deg); 
+    font-size: 4em;
+    left: -1.5em;
+    top: 2em;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+    mix-blend-mode: difference;
+    font-weight: bold;
+}
+
+.topMenu{
+    position: fixed;
+    font-weight: bold;
+    text-align: right;
+    font-size: 1em;
+    right: 1em;
+    float: right;
+    top: 2em;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+    mix-blend-mode: difference;
+    text-decoration: none;
+}
+
+.title{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto; 
+    font-weight: bold;
+    color: white; 
+    font-size: 4em;
+    font-stretch: extra-expanded;
+}
+
+.getstarted{
+    margin-top: 10em;
+}
+
+.startbuttons{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    margin-top: 5em;
+    margin-left: 37.5%;
+}
+
+.splash{
+    height: 1080px;
+    width: 100%;
+}
+
+.ay{
+    width: 100%;
+}
+
+.logoSplash { 
+    width: 15em;
+    margin-top: 2%;
+    animation-name: spin;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.btnPrimary{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 300ms;
+}
+
+.btnPrimary:hover{
+    background-color: transparent; 
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 300ms;
+}
+
+.btnSecondary{
+    background-color: transparent; 
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block; 
+    font-size: 16px;
+    transition-duration: 300ms;
+}
+
+.btnSecondary:hover{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 300ms;
+}
+
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
