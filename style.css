@@ -46,23 +46,8 @@ body{
     margin-top: 10em;
 }
 
-.startbuttons{
-    background-color: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 25%;
-    margin-top: 5em;
-    margin-left: 37.5%;
-}
-
 .splash{
     height: 1080px;
-    width: 100%;
-}
-
-.ay{
-    width: 100%;
 }
 
 .logoSplash { 
