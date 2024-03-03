@@ -52,7 +52,7 @@ body{
 
 .logoSplash { 
     width: 15em;
-    margin-top: 2%;
+    margin-top: 10%;
     animation-name: spin;
     animation-duration: 60s;
     animation-iteration-count: infinite;
@@ -104,6 +104,41 @@ body{
     font-size: 16px;
     transition-duration: 300ms;
 }
+
+.treeImgContainer{
+    width: 50%!important;
+    overflow: hidden;
+    position: absolute;
+    left: 25%;
+    top: 150%;
+}
+
+.treeText{
+    font-size: 7em;
+    top: 2em;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    position: absolute;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid white;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
 
 @-ms-keyframes spin {
     from { -ms-transform: rotate(0deg); }
